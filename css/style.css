@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Poppins';
+  src: 	url('../fonts/Poppins-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+	font-family: 'Poppins-Bold';
+	src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins-Light';
+	src: url('../fonts/Poppins-Light.ttf') format('truetype');
+}
+
+body {
+	font-family: 'Poppins';
+}
+
+.parallax {
+	background-image: url('../img/slider-home.jpg'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	color: white;
+}
+
+.title {
+	text-transform: uppercase;
+	font-size: 100px;
+	font-family: 'Poppins-Bold';
+}
+
+.bg-blue {
+	background: #0d86ff !important;
+}
+
+.color-blue {
+	color: #0d86ff; 
+}
+
+.logo-apple {
+	float: right;
+	margin-top: 20px;
+}
+
+.header {
+	width: 65%;
+	padding: 5vw 8vw 20vh 6vw;
+}
+
+.header p {
+	font-size: 21px;
+	font-family: 'Poppins-Light';
+	color: #a5a4a4;
+	margin-top: 6vh;
+    margin-bottom: 10vh;
+    padding-right: 5vh;
+}
+
+.header a {
+	font-size: 16px;
+	background-color: #0d86ff !important;
+	color: white;
+	padding: 15px 25px;
+	border-radius: 10px;
+}
+
+.header a:hover {
+	color: #fefefe;
+}
