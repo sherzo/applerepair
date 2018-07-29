@@ -70,3 +70,90 @@ body {
 .header a:hover {
 	color: #fefefe;
 }
+
+.card {
+	text-align: center;
+	border: 1px solid #eee;
+	padding-top: 5vh;
+	padding-bottom: 4vh;
+	margin-bottom: 6vh;
+}
+
+.okeyapple .title {
+	font-size: 50px;
+	font-family: 'Poppins-Bold';
+	color: #0d86ff;
+	margin-bottom: 2px;
+}
+
+.okeyapple hr {
+	border-bottom: 4px solid #000;
+	width: 20vh; 
+	margin-top: 0;
+}
+
+.okeyapple p.description {
+	font-family: 'Poppins-Light';
+	font-size: 21px;
+	padding-left: 8vh;
+	padding-right: 8vh;
+	margin-bottom: 9vh;
+}
+
+.okeyapple {
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	padding-left: 10vh;
+	padding-right: 10vh;
+}
+
+.card-title {
+	font-size: 21px;
+	font-family: 'Poppins-Bold';
+}
+
+.card-body {
+	font-size: 16px;
+	font-family: 'Poppins-Light';
+	padding: 3vh;
+}
+
+.icon {
+	width: 20vh;
+	height: 20vh;
+	display: inline-block;
+}
+
+.mac {
+	background: transparent url(../icons/ico-mac-03.svg) no-repeat 0 0;
+}
+
+.macbook {
+	background: transparent url(../icons/ico-laptop-04.svg) no-repeat 0 0;
+}
+
+.ipad {
+	background: transparent url(../icons/ico-ipad-06.svg) no-repeat 0 0;
+}
+
+.iphone {
+	background: transparent url(../icons/ico-iphone-05.svg) no-repeat 0 0;
+}
+
+.icon svg:hover {
+	fill: red !important;
+}
+
+.view-more {
+	border: 1px solid #eee;
+	display: inline-block;
+	width: 35%;
+	position: absolute;
+	padding: 2vh;
+	background: white;
+	right: 32.5%;
+	bottom: 3vh;
+	color: black;
+	font-family: 'Poppins-Light';
+	font-size: 16px;
+}
