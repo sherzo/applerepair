@@ -15,6 +15,7 @@
 
 body {
 	font-family: 'Poppins';
+	color: black;
 }
 
 .parallax {
@@ -27,7 +28,6 @@ body {
 }
 
 .title {
-	text-transform: uppercase;
 	font-size: 100px;
 	font-family: 'Poppins-Bold';
 }
@@ -71,6 +71,10 @@ body {
 	color: #fefefe;
 }
 
+/*
+*	Reparation
+*/
+
 .card {
 	text-align: center;
 	border: 1px solid #eee;
@@ -79,10 +83,10 @@ body {
 	margin-bottom: 6vh;
 }
 
-.okeyapple .title {
+
+.section-title {
 	font-size: 50px;
 	font-family: 'Poppins-Bold';
-	color: #0d86ff;
 	margin-bottom: 2px;
 }
 
@@ -92,7 +96,7 @@ body {
 	margin-top: 0;
 }
 
-.okeyapple p.description {
+p.description {
 	font-family: 'Poppins-Light';
 	font-size: 21px;
 	padding-left: 8vh;
@@ -105,6 +109,13 @@ body {
 	padding-bottom: 10vh;
 	padding-left: 10vh;
 	padding-right: 10vh;
+}
+
+.padding-section {
+	padding-top: 5vh;
+	padding-bottom: 10vh;
+	padding-left: 10vh;
+	padding-right: 10vh;	
 }
 
 .card-title {
@@ -140,8 +151,8 @@ body {
 	background: transparent url(../icons/ico-iphone-05.svg) no-repeat 0 0;
 }
 
-.icon svg:hover {
-	fill: red !important;
+.icon svg:hover .st2 {
+	fill: #000;
 }
 
 .view-more {
@@ -156,4 +167,190 @@ body {
 	color: black;
 	font-family: 'Poppins-Light';
 	font-size: 16px;
+}
+
+/*
+*	Reparation
+*/
+
+.reparation {
+	padding-bottom: 10vh;
+	padding-left: 10vh;
+	padding-right: 10vh;
+}
+
+.reparation .col-md-7 {
+	padding-right: 8vw;
+	padding-top: 5vh;
+}
+
+.reparation hr {
+	border-bottom: 3px solid #0d86ff;
+	width: 30%;
+	display: inline-block;
+}
+
+
+.reparation .description {
+	padding-left: 0;
+}
+
+/*
+*	Selection
+*/
+
+.mb-10 {
+	padding-top: 10%;
+}
+
+.selection {
+	background: #f5f4f9;
+}
+
+.box {
+	color: #a5a4a4;
+	background: white;
+	padding: 10vh 5vh 5vh 5vh;
+	text-align: center;
+	position: relative;
+}
+
+.box-title {
+	font-family: 'Poppins-Bold';
+	font-size: 21px;
+}
+
+.mid-circle {
+	padding: 20px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	top: -20%;
+	right: 30%;
+}
+
+.box-description {
+	font-family: 'Poppins-Light';
+	font-size: 16px;
+	color: black;
+}
+
+/*
+*	Contac
+*/
+
+.contact .description {
+	padding-left: 0;
+}
+
+.contact .form-group {
+	padding-top: 20px;
+}
+
+.contact input, .contact textarea {
+	border-radius: 0;
+}
+
+.btn-send {
+	background: #0d86ff;
+	padding: 1vh 8vh;
+	color: white;
+	border-radius: 0;
+	font-size: ;
+	font-family: 'Poppins-Light';
+	font-size: 16px;
+}
+
+/*
+*	Footer
+*/
+
+footer {
+	background: #434344;
+	color: white;
+}
+
+footer h4{
+	font-family: 'Poppins-Bold';
+	font-size: 21px;
+}
+
+footer p {
+	font-family: 'Poppins-Light';
+	font-size: 16px;
+}
+
+footer .redes img {
+	width: 50px;
+}
+
+footer .contac {
+	padding-left: 10%;
+}
+
+/*
+*		PAGE MACBOOK
+*/
+
+.parallax-macbook {
+	background-image: url('../img/banner-mackbook.jpg'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	color: white;
+}
+
+
+.lowercase {
+	text-transform: lowercase !important;
+}
+
+.reparation .text-desc {
+	padding-right: 7vw;
+	padding-top: 5vh;
+}
+
+.reparation .img-reparation {
+	margin-top: 25vh;
+}
+
+.pages {
+	padding-bottom: 0;
+}
+
+.parallax-ipad {
+	background-image: url('../img/slider-ipad.jpg'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	color: white;
+}
+
+.parallax-iphone {
+	background-image: url('../img/slider-iphone.jpg'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	color: white;
+}
+
+.parallax-iphone-batery {
+	background-image: url('../img/slider-iphone-bateria.jpg'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	color: white;
+}
+
+.parallax-testimonios {
+	background-image: url('../img/slider-testimonios.jpg'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	color: white;
 }

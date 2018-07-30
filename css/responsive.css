@@ -1,0 +1,104 @@
+@media only screen  
+	and (min-device-width : 320px) 
+	and (max-device-width : 480px) {
+	
+	.okeyapple .title {
+		font-size: 100px;
+	}
+
+	p.description {
+		font-size: 40px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.card {
+		border: 3px solid #eee;
+		margin-bottom: 20%;
+	}
+
+	.card-title {
+		font-size: 35px;
+	}
+
+	.card-body {
+		font-size: 40px;
+	}
+	
+	.view-more {
+		width: 90%;
+		font-size: 40px;
+		right: 5%;
+		bottom: -5%;
+		border: 3px solid #eee;
+	}
+
+	.icon {
+		width: 350px;
+		height: 350px;
+	}
+}
+
+@media only screen  
+	and (min-device-width : 768px) 
+	and (max-device-width : 1024px) {
+	
+	.card-body {
+		margin-bottom: 6%;
+	}
+
+	.view-more {
+		width: 60%;
+		right: 20%;
+		bottom: -2vh:;
+	}
+}
+
+@media only screen  
+	and (min-device-width : 320px) 
+	and (max-device-width : 768px) { 
+	
+	.okeyapple p.description {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.parallax {
+		background-attachment: initial;
+		background-position: initial; 
+	}
+
+	.mid-circle {
+		right: 38%;
+		top: -10%;
+	}
+
+	.box {
+		margin-bottom: 6vh;
+		padding-top: 6vh;
+	}
+
+	.padding-section {
+		padding-right: 1%;
+		padding-left: 1%;
+	}
+	
+	.box-title  {
+		font-size: 40px;
+	}
+
+	.box-description {
+		font-size: 36px;
+
+	}
+
+	.okeyapple {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+	.reparation {
+		padding-right: 2%;
+		padding-left: 2%;
+	}
+}
