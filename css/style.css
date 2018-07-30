@@ -346,6 +346,13 @@ footer .contac {
 	color: white;
 }
 
+/*
+*	Testimonials
+*/
+.mt-5 {
+	margin-top: 5%;
+} 
+
 .parallax-testimonios {
 	background-image: url('../img/slider-testimonios.jpg'); 
 	background-size: cover;
@@ -353,4 +360,38 @@ footer .contac {
 	background-attachment: fixed;
 	background-position: center; 
 	color: white;
+}
+
+.card-line {
+	border: 1px solid #eee;
+	padding: 20px;
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+.username {
+	margin-top: 30px;
+	font-family: 'Poppins-Bold';
+	font-size: 21px;
+}
+
+.title-padding {
+	padding-right: 30vh;
+	padding-left: 30vh;
+}
+.title-padding-large {
+
+padding-right: 50vh; 
+padding-left: 50vh; 
+padding-bottom: 10vh;
+}
+
+.text-desc {
+	font-family: 'Poppins-Light';
+	font-size: 16px;
+}
+
+.desc-testimonial {
+
+	font-size: 21px; 
 }
